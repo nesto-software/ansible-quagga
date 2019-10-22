@@ -31,7 +31,7 @@
 
 - name: debian | enabling quagga
   service:
-    name: "quagga"
+    name: "zebra"
     state: "started"
     enabled: yes
 
